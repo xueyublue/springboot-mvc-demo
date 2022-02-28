@@ -1,8 +1,8 @@
-package sg.com.crimsonlogic.darren.springbootdemo.service;
+package sg.com.crimsonlogic.darren.springmvc.service;
 
 import java.util.List;
 
-import sg.com.crimsonlogic.darren.springbootdemo.entity.Employee;
+import sg.com.crimsonlogic.darren.springmvc.entity.Employee;
 
 public interface EmployeeService {
 

@@ -1,4 +1,4 @@
-package sg.com.crimsonlogic.darren.springbootdemo.entity;
+package sg.com.crimsonlogic.darren.springmvc.entity;
 
 import org.springframework.context.annotation.Configuration;
 

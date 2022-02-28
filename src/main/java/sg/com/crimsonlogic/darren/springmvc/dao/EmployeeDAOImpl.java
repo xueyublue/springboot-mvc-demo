@@ -1,4 +1,4 @@
-package sg.com.crimsonlogic.darren.springbootdemo.dao;
+package sg.com.crimsonlogic.darren.springmvc.dao;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import sg.com.crimsonlogic.darren.springbootdemo.entity.Employee;
+import sg.com.crimsonlogic.darren.springmvc.entity.Employee;
 
 @Repository
 public class EmployeeDAOImpl implements EmployeeDAO {

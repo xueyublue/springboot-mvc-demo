@@ -1,4 +1,4 @@
-package sg.com.crimsonlogic.darren.springbootdemo.service;
+package sg.com.crimsonlogic.darren.springmvc.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import sg.com.crimsonlogic.darren.springbootdemo.dao.EmployeeDAO;
-import sg.com.crimsonlogic.darren.springbootdemo.dao.EmployeeRepository;
-import sg.com.crimsonlogic.darren.springbootdemo.entity.Employee;
+import sg.com.crimsonlogic.darren.springmvc.dao.EmployeeDAO;
+import sg.com.crimsonlogic.darren.springmvc.dao.EmployeeRepository;
+import sg.com.crimsonlogic.darren.springmvc.entity.Employee;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {

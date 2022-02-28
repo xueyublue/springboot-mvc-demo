@@ -1,4 +1,4 @@
-package sg.com.crimsonlogic.darren.springbootdemo.controller;
+package sg.com.crimsonlogic.darren.springmvc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import sg.com.crimsonlogic.darren.springbootdemo.entity.Employee;
-import sg.com.crimsonlogic.darren.springbootdemo.entity.NavbarBean;
-import sg.com.crimsonlogic.darren.springbootdemo.service.EmployeeService;
+import sg.com.crimsonlogic.darren.springmvc.entity.Employee;
+import sg.com.crimsonlogic.darren.springmvc.entity.NavbarBean;
+import sg.com.crimsonlogic.darren.springmvc.service.EmployeeService;
 
 @Controller
 @RequestMapping("/employees")
