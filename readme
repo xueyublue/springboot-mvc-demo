@@ -1,1 +1,0 @@
-Login H2 web console first and then execute src\main\resources\static\sql\employee.sql to create table and import initial data.
