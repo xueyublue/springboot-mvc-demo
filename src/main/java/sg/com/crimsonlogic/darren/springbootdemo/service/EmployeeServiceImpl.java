@@ -4,14 +4,20 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import sg.com.crimsonlogic.darren.springbootdemo.dao.EmployeeDAO;
 import sg.com.crimsonlogic.darren.springbootdemo.dao.EmployeeRepository;
 import sg.com.crimsonlogic.darren.springbootdemo.entity.Employee;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
+	@Autowired
+	@Qualifier("employeeDAOJpaImpl") // not required if there is only one DAO implementation
+	private EmployeeDAO employeeDAO;
+	
 	@Autowired
 	private EmployeeRepository employeeRepository;
 	
